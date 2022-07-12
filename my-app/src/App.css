@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 11px;
+  top: 8px;
+}
+ nav{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 30px, 10%;
+   background-color: lightgray;
+   
+ }
+ li{
+   color: black;
+   display: inline;
+   padding: 5px;
+   
+ }
+ .addtodo{
+   padding: 10px;
+ }
+ .delete{
+   background-color: palevioletred;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   margin: 10px;
+   
+ }
+ .list{
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   margin: 5px;
+ }
+ .update{
+   background-color: greenyellow;
+   height: 30px;
+   width: 80px;
+   border-radius: 25%;
+   
+ }
